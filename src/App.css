@@ -1,0 +1,12 @@
+ul[aria-label="Pagination"]{
+    display: flex;
+    list-style-type: none;
+}
+ul[aria-label="Pagination"] li{
+    padding: 0 1vmax;
+    /* background-color: antiquewhite; */
+    margin: 0 1vmax;
+}
+.selected{
+    background-color: rgb(71, 74, 74);
+}
