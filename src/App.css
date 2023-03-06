@@ -1,12 +1,54 @@
 ul[aria-label="Pagination"]{
     display: flex;
     list-style-type: none;
+    margin-left: 20%;
 }
 ul[aria-label="Pagination"] li{
     padding: 0 1vmax;
     /* background-color: antiquewhite; */
     margin: 0 1vmax;
 }
+.input{
+    margin-left: 38%;
+    margin-bottom: 2%;
+}
+h1{
+    color: rgb(199, 204, 210);
+}
+.input input{
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(71, 74, 74);
+    outline: none;
+}
+.input span{
+    font-size: 1.2vmax;
+}
+button{
+    border: 1px solid rgb(71, 74, 74);
+    border-radius: 5px;
+}
 .selected{
     background-color: rgb(71, 74, 74);
+    border-radius: 20px;
+}
+
+.previous{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.next{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.previous a{
+    color: white;
+    text-decoration: none;
+}
+.next a{
+    color: white;
+    text-decoration: none;
 }
